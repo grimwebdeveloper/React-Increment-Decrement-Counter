@@ -1,0 +1,44 @@
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  background: whitesmoke;
+}
+
+#app .count {
+  font-size: 5rem;
+}
+
+#app .zero {
+  color: red;
+}
+
+#app .non-zero {
+  color: green;
+}
+
+#app .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+#app .buttons button {
+  border: 1px solid black;
+  padding: 0.7rem 1.6rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.3rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s ease all;
+}
+
+#app .buttons button:hover {
+  background-color: whitesmoke;
+  color: black;  
+}
